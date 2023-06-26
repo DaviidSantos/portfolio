@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Technologies = () => {
   return (
-    <section className="py-14">
+    <section className='mt-12'>
       <h4 className="bg-cyan-900 text-cyan-400 w-max tracking-wide">
         Technologies
       </h4>

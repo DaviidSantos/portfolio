@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import luffy from '@/assets/luffy.jpg';
+import Image from 'next/image';
 
 export const WhoAmI = () => {
   return (
-    <section className="flex flex-col text-center md:text-left md:grid grid-cols-2 w-full gap-3">
+    <section className="py-24">
       <div>
         <h1 className="text-zinc-200 text-5xl font-bold">David Santos</h1>
         <h3 className="text-zinc-400 text-xl font-medium mt-2">
@@ -27,27 +29,21 @@ export const WhoAmI = () => {
             <BsLinkedin className="h-6 w-6 text-zinc-300 hover:text-white" />
           </Link>
         </div>
-      </div>
 
-      <div className="mt-7 md:mt-0">
-        <p className="text-sm md:text-base text-zinc-400 md:leading-8">
-          Hello, I&#8217;m David Santos, a{' '}
-          <span className="text-zinc-100 font-medium">
-            passionate software developer
-          </span>{' '}
-          based in Brazil. Currently pursuing a degree in Systems Analysis and
-          Development, I am dedicated to honing my skills and expanding my
-          knowledge in the world of technology. With a keen interest in{' '}
-          <span className="text-zinc-100 font-medium">
-            coding, science, and languages
-          </span>
-          , I find joy in the art of crafting elegant and efficient solutions
-          through software development. I strive to create{' '}
-          <span className="text-zinc-100 font-medium">
-            impactful applications that solve real-world problems and enhance
-            user experiences.
-          </span>
-        </p>
+        <div className="mt-14 flex gap-7">
+          <Image
+            src={luffy}
+            alt="luffy"
+            className="w-[85px] h-[85px] object-cover object-center"
+          />
+          <div>
+            <p className="max-w-[150px] text-zinc-200 text-xs">
+              &ldquo;minami no shima wa atta ke-e paina purupuru atama pokopoko
+              aho baka&rdquo;
+            </p>
+            <p className="text-zinc-200 text-xs mt-3">- Monkey D. Luffy</p>
+          </div>
+        </div>
       </div>
     </section>
   );
