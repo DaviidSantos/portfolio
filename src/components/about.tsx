@@ -21,7 +21,7 @@ export const About = () => {
         through software development. I strive to create{' '}
         <span className="text-zinc-100 font-medium">
           impactful applications that solve real-world problems and enhance user
-          experiences.
+          experience.
         </span>
       </p>
     </div>

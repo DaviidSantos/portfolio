@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'David Santos',
   description:
-    'I build accessible, inclusive products and digital experiences for the web.',
+    'I build impactful applications that solve real-world problems and enhance user experiences.',
 };
 
 export default function RootLayout({

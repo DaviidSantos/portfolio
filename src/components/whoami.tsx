@@ -12,9 +12,8 @@ export const WhoAmI = () => {
         <h3 className="text-zinc-400 text-xl font-medium mt-2">
           Software Developer
         </h3>
-        <p className="text-zinc-400 mt-2 md:max-w-xs">
-          I build accessible, inclusive products and digital experiences for the
-          web.
+        <p className="text-zinc-400 mt-4 md:max-w-[340px] text-sm">
+          I build impactful applications that solve real-world problems and enhance user experiences.
         </p>
 
         <div className="flex justify-center md:justify-start gap-5 mt-7">
