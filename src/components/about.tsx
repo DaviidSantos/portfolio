@@ -2,7 +2,7 @@ import React from 'react';
 
 export const About = () => {
   return (
-    <div className="pt-24">
+    <div className="md:pt-24">
       <h4 className="bg-violet-900 text-violet-400 w-max tracking-wide">
         About
       </h4>

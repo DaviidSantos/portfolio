@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export const WhoAmI = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 text-center md:text-left">
       <div>
         <h1 className="text-zinc-200 text-5xl font-bold">David Santos</h1>
         <h3 className="text-zinc-400 text-xl font-medium mt-2">
@@ -30,7 +30,7 @@ export const WhoAmI = () => {
           </Link>
         </div>
 
-        <div className="mt-14 flex gap-7">
+        <div className="mt-14 flex gap-7 justify-center md:justify-start">
           <Image
             src={luffy}
             alt="luffy"
