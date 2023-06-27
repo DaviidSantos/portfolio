@@ -6,13 +6,13 @@ import Image from 'next/image';
 
 export const WhoAmI = () => {
   return (
-    <section className="py-24 text-center md:text-left">
+    <section className="py-12 md:py-24 text-center md:text-left">
       <div>
-        <h1 className="text-zinc-200 text-5xl font-bold">David Santos</h1>
+        <h1 className="text-zinc-200 text-4xl lg:text-5xl font-bold">David Santos</h1>
         <h3 className="text-zinc-400 text-xl font-medium mt-2">
           Software Developer
         </h3>
-        <p className="text-zinc-400 mt-4 md:max-w-[340px] text-sm">
+        <p className="text-zinc-400 mt-4 md:max-w-[340px] text-xs lg:text-sm">
           I build impactful applications that solve real-world problems and enhance user experiences.
         </p>
 

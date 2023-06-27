@@ -21,7 +21,7 @@ const navItems = [
 
 export const Navbar = () => {
   return (
-    <nav className="py-4 absolute right-0">
+    <nav className="py-4 md:absolute md:right-0">
       <ul className="flex justify-center sm:justify-end gap-10">
         {navItems.map((item) => (
           <li key={item.key}>

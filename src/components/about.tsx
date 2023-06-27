@@ -2,11 +2,11 @@ import React from 'react';
 
 export const About = () => {
   return (
-    <div className="md:pt-24">
+    <div className="pt-6 p-3 md:pt-24">
       <h4 className="bg-violet-900 text-violet-400 w-max tracking-wide">
         About
       </h4>
-      <p className="text-sm md:text-base text-zinc-400 md:leading-8 mt-5">
+      <p className="text-sm text-zinc-400 md:leading-8 mt-5">
         Hello, I&#8217;m David Santos, a{' '}
         <span className="text-zinc-100 font-medium">
           passionate software developer
